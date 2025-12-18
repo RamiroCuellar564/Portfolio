@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ramiro Cuellar Portfolio",
+  title: "Ramiro Cuellar",
   description: "Portfolio web de Ramiro cuellar",
 };
 
