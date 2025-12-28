@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Urbanist } from "next/font/google";
+import { Onest } from "next/font/google";
 import "./globals.css";
 
-const urbanist = Urbanist({ subsets: ["latin"] });
+const onest = Onest({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ramiro Cuellar",
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${urbanist.className} ${urbanist.className} antialiased`}
+        className={`${onest.className} ${onest.className} antialiased`}
       >
         {children}
       </body>
