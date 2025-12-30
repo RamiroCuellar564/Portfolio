@@ -3,10 +3,11 @@ import { FullScreen } from "@tsparticles/engine";
 import { AnimatePresence } from "motion/react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { IoDownload } from "react-icons/io5";
 
 const Intro = () => {
    return (
-      <div className="z-20 w-full min-h-screen bg-darkBg/60 flex items-center">
+      <div id="home" className="z-20 w-full min-h-screen bg-darkBg/60 flex items-center">
          <div className="z-20 grid w-full justify-center p-6 gap-6 md:grid-cols-2 items-center">
             <div className="flex justify-center items-center">
                <Image
@@ -44,7 +45,14 @@ const Intro = () => {
                   web.
                </p>
                <div className="">
-                  <button className="btn hidden md:inline-block">Descargar Curriculum</button>
+                  <a
+                     href="/curriculum.pdf"
+                     download="Ramiro_Cuellar_Curriculum.pdf"
+                     className="btn btn-primary hidden md:inline-flex gap-2"
+                  >
+                     <IoDownload size={20} />
+                     Descargar Curriculum
+                  </a>
                </div>
             </div>
          </div>
