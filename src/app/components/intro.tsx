@@ -6,16 +6,16 @@ import { TypeAnimation } from "react-type-animation";
 
 const Intro = () => {
    return (
-      <div className="z-20 w-full h-full bg-darkBg/60">
-         <div className="z-20 grid justify-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-            <div className="flex justify-center">
+      <div className="z-20 w-full min-h-screen bg-darkBg/60 flex items-center">
+         <div className="z-20 grid w-full justify-center p-6 gap-6 md:grid-cols-2 items-center">
+            <div className="flex justify-center items-center">
                <Image
                   src="/foto.png"
                   alt="Profile pic"
                   priority
                   width={250}
                   height={250}
-                  className="rounded-full"
+                  className="rounded-full  object-cover flex-shrink-0"
                />
             </div>
             <div className="flex flex-col justify-center max-w-nd">
@@ -43,6 +43,9 @@ const Intro = () => {
                   crecer profesionalmente en el área de las IT y el desarrollo
                   web.
                </p>
+               <div className="">
+                  <button className="btn hidden md:inline-block">Descargar Curriculum</button>
+               </div>
             </div>
          </div>
       </div>
