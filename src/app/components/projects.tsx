@@ -33,15 +33,6 @@ const Projects = () => {
                         <FaGithub size={20} />
                         GitHub
                      </a>
-                     <a
-                        href="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-secondary"
-                     >
-                        <IoOpen size={18} />
-                        Live Demo
-                     </a>
                   </div>
                </div>
             </div>
@@ -104,15 +95,6 @@ const Projects = () => {
                      >
                         <FaGithub size={20} />
                         GitHub
-                     </a>
-                     <a
-                        href="https://tienda.maldon.com.ar/productos/el-switcher?utm_source=Nuestraweb&utm_medium=BotonComprar&utm_id=COMPRAR"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-ghost text-white hover:text-gray-700 border border-gray-400"
-                     >
-                        <HiCurrencyDollar size={20} />
-                        Comprar
                      </a>
                   </div>
                </div>
