@@ -4,6 +4,7 @@ import { AnimatePresence } from "motion/react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { IoDownload } from "react-icons/io5";
+import { RiVerifiedBadgeFill } from "react-icons/ri";
 
 const Intro = () => {
    return (
@@ -21,14 +22,14 @@ const Intro = () => {
             </div>
             <div className="flex flex-col justify-center max-w-nd">
                <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-slate-600">
-                  Ramiro Cuellar
+                  Ramiro Cuellar <RiVerifiedBadgeFill className="inline ml-2" size={25} />
                   <TypeAnimation
                      sequence={[
-                        "Front End",
+                        "Desarrollador Front End",
                         1000,
-                        "Back End",
+                        "Desarrollador Back End",
                         1000,
-                        "Full-Stack",
+                        "Desarrollador Full-Stack",
                         1000,
                      ]}
                      wrapper="span"
