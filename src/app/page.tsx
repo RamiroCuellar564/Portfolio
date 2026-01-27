@@ -1,6 +1,10 @@
 import CoverParticles from "./components/cover-particles";
 import Header from "./components/header";
 import Intro from "./components/intro";
+import AboutMe from "./components/about-me";
+import Projects from "./components/projects";
+import Courses from "./components/courses";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -9,6 +13,10 @@ export default function Home() {
         <CoverParticles />
         <Header />
         <Intro />
+        <AboutMe />
+        <Projects/>
+        <Courses/>
+        <Contact/>
       </div>
     </main>
   );
