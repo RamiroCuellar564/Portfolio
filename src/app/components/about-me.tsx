@@ -14,8 +14,8 @@ const paragraphs = [
    },
    {
       id: 2,
-      image: "/about-2.jpg",
-      text: "Tengo experiencia en desarrollo web full-stack utilizando tecnologías modernas como React, Next.js, TypeScript y Node.js. Estoy comprometido con escribir código limpio, mantenible y escalable que entregue valor real a los usuarios.",
+      image: "/about-4.jpg",
+      text: "Como estudiante avanzado de Ciencias de la Computación en la Universidad Nacional de Cordoba (FAMAF), cuento con más de 4 años de formación técnica y experiencia práctica en desarrollo web y backend, manteniendo buenas prácticas de ingeniería de software.",
    },
    {
       id: 3,
@@ -24,9 +24,9 @@ const paragraphs = [
    },
    {
       id: 4,
-      image: "/about-4.jpg",
-      text: "Cuando no estoy programando, me gusta mantenerme actualizado con las últimas tendencias en tecnología, contribuir a proyectos open source y explorar nuevas frameworks y herramientas que puedan potenciar mi desarrollo profesional.",
-   },
+      image: "/about-2.jpg",
+      text: "Tengo experiencia en desarrollo web full-stack utilizando tecnologías modernas como React, Next.js, TypeScript y Node.js. Estoy comprometido con escribir código limpio, mantenible y escalable que entregue valor real a los usuarios.",
+   }
 ];
 
 

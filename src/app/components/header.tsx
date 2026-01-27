@@ -13,6 +13,7 @@ const Header = () => {
             </label>
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow-lg bg-white/90 text-slate-800 rounded-box w-52 backdrop-blur-sm border border-slate-200">
               <li><a href="#home">Home</a></li>
+              <li><a href="#about">Sobre mi</a></li>
               <li><a href="#projects">Proyectos</a></li>
               <li><a href="#courses">Cursos</a></li>
               <li><a href="#contact">Contacto</a></li>
@@ -21,8 +22,9 @@ const Header = () => {
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-secondary text-xl">
+          <ul className="menu menu-horizontal px-1 text-slate-700 text-xl">
             <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre mi</a></li>
             <li><a href="#projects">Proyectos</a></li>
             <li><a href="#courses">Cursos</a></li>
             <li><a href="#contact">Contacto</a></li>
