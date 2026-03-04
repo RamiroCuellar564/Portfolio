@@ -25,7 +25,7 @@ const paragraphs = [
    {
       id: 4,
       image: "/about-2.jpg",
-      text: "Tengo experiencia en desarrollo web full-stack utilizando tecnologías modernas como React, Next.js, TypeScript y Node.js. Estoy comprometido con escribir código limpio, mantenible y escalable que entregue valor real a los usuarios.",
+      text: "Tengo experiencia en desarrollo web full-stack utilizando tecnologías modernas como React, Next.js, .NET, ASPNET y SpringBoot Java. Estoy comprometido con escribir código limpio, mantenible y escalable que entregue valor real a los usuarios.",
    }
 ];
 
