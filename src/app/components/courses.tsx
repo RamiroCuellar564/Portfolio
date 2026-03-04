@@ -72,33 +72,62 @@ export default function Courses() {
              </FadeIn>
 
              <FadeIn delay={0.3} direction="up">
-                <div className="flex flex-col items-center">
-                   <div className="hover-3d w-full">
-                      <figure className="w-full h-56 sm:h-64 md:h-72 lg:h-80 rounded-2xl overflow-hidden">
-                         <Image
-                            src="/certificate_aws.jpg"
-                            alt="certificate_aws"
-                            width={800}
-                            height={600}
-                            className="w-full h-full object-cover"
-                         />
-                      </figure>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                   </div>
-                   <div className="items-center justify-center pt-5">
-                      <h1 className="text-slate-500">
-                         Entrena Argentina: Desarrollador de Nube AWS
-                      </h1>
-                   </div>
-                </div>
-             </FadeIn>
+                 <div className="flex flex-col items-center">
+                    <div className="hover-3d w-full">
+                       <figure className="w-full h-56 sm:h-64 md:h-72 lg:h-80 rounded-2xl overflow-hidden">
+                          <Image
+                             src="/certificate_aws.jpg"
+                             alt="certificate_aws"
+                             width={800}
+                             height={600}
+                             className="w-full h-full object-cover"
+                          />
+                       </figure>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                    </div>
+                    <div className="items-center justify-center pt-5">
+                       <h1 className="text-slate-500">
+                          Entrena Argentina: Desarrollador de Nube AWS
+                       </h1>
+                    </div>
+                 </div>
+              </FadeIn>
+
+              <FadeIn delay={0.4} direction="up">
+                 <div className="flex flex-col items-center">
+                    <div className="hover-3d w-full">
+                       <figure className="w-full h-56 sm:h-64 md:h-72 lg:h-80 rounded-2xl overflow-hidden">
+                          <Image
+                             src="/certificate_csharp.jpg"
+                             alt="certificate_csharp"
+                             width={800}
+                             height={600}
+                             className="w-full h-full object-cover"
+                          />
+                       </figure>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                    </div>
+                    <div className="items-center justify-center pt-5">
+                       <h1 className="text-slate-500">
+                          FreeCodeCamp: Fundational C# with Microsoft
+                       </h1>
+                    </div>
+                 </div>
+              </FadeIn>
           </div>
       </div>
    );
