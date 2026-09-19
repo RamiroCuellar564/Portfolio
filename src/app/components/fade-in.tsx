@@ -11,12 +11,12 @@ interface FadeInProps {
   className?: string;
 }
 
-const FadeIn = ({ 
-  children, 
-  delay = 0, 
-  duration = 0.6, 
+const FadeIn = ({
+  children,
+  delay = 0,
+  duration = 0.6,
   direction = "up",
-  className = "" 
+  className = "",
 }: FadeInProps) => {
   const getInitialPosition = () => {
     switch (direction) {
@@ -39,17 +39,14 @@ const FadeIn = ({
     <motion.div
       className={className}
       initial={getInitialPosition()}
-      whileInView={{ 
-        x: 0, 
-        y: 0, 
-        opacity: 1 
-      }}
+      whileInView={{ x: 0, y: 0, opacity: 1 }}
       viewport={{ once: true, amount: 0.2 }}
-      transition={{ 
-        duration, 
+      transition={{
+        duration,
         delay,
-        ease: "easeOut"
+        ease: "easeOut",
       }}
+      style={{ willChange: "transform, opacity" }}
     >
       {children}
     </motion.div>

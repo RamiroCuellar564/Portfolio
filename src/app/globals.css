@@ -1,22 +1,31 @@
 @import "tailwindcss";
-@plugin "daisyui";
+
+@theme inline {
+  --color-base: #FAFAF8;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #6B6B6B;
+  --color-text-tertiary: #9A9A9A;
+  --color-accent: #C45D3E;
+  --color-accent-hover: #A84B30;
+  --color-border: #E8E6E1;
+  --color-border-hover: #D4D1CC;
+  --font-sans: var(--font-onest);
+}
 
 html,
 body {
-  color: #fff;
-  background: #cfcfcf;
+  color: var(--color-text);
+  background: var(--color-base);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
