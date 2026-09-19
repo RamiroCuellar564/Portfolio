@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Onest } from "next/font/google";
-// @ts-expect-error CSS files are handled by Next.js at build time.
+
 import "./globals.css";
 
 const onest = Onest({ subsets: ["latin"] });
